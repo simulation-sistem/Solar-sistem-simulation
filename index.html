@@ -7,6 +7,15 @@
 <!doctype html>
 <html lang="es">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2GN6PZWHEE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2GN6PZWHEE');
+</script>
 <title>Simulador del Sistema Solar 3D</title>
 <meta name="description" content="Explora el Sistema Solar en una simulación 3D interactiva con planetas, lunas, estrellas y mucho más.">
 <meta charset="utf-8">
@@ -4041,8 +4050,5 @@ requestAnimationFrame(draw);
     enterNebula();
   });
   exitBtn.addEventListener('click',()=>window.exitNebula());
-  <script>
-  fetch("https://script.google.com/macros/s/AKfycbz-AACcl-WZcBZ4ThpR4SRf6hKc57sxT6NmsRLXtGw8TZx5wxRn81AOnjx9p_rWZbY5/exec?accion=sumar", { mode: "no-cors" }).catch(function () {});
-</script>
 </body>
 </html>
